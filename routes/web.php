@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-		sleep(60);
+		sleep(70);
     return ['Laravel' => app()->version()];
 });
 
